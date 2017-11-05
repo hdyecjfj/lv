@@ -1,0 +1,746 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  box-sizing: border-box;
+  list-style-type: none;
+}
+.oh {
+  overflow: hidden;
+}
+.box-min {
+  margin: 0 auto;
+}
+.tc {
+  text-align: center;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.toptop .nav li:hover {
+  color: white;
+  border-bottom: 4px solid white;
+}
+.toptop .nav a:hover {
+  color: white;
+}
+.toptop .right dd:hover {
+  height: 50px;
+  border-bottom: 3px solid white;
+}
+.toptop .lydwsj {
+  display: none;
+  width: 950px;
+  height: 400px;
+  position: fixed;
+  top: 80px;
+  left: 15%;
+  z-index: 999;
+  background-color: white;
+  box-shadow: 5px 5px 5px 2px #ccc;
+}
+.toptop .lydwsj h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+}
+.toptop .lydwsj .slidenav {
+  width: 340px;
+  height: 400px;
+  background-color: #372D2A;
+  color: #827068;
+  font-size: 14px;
+}
+.toptop .lydwsj .slidenav dd {
+  height: 30px;
+  width: 300px;
+  float: right;
+  padding-left: 5px;
+  line-height: 30px;
+}
+.toptop .lydwsj .slidenav dd.show {
+  background-color: white;
+  color: black;
+}
+.toptop .lydwsj .slidenav dd.show b {
+  color: black;
+}
+.toptop .lydwsj .slidenav dd b {
+  float: right;
+  color: #372D2A;
+}
+.toptop .lydwsj span {
+  display: block;
+  position: fixed;
+  top: 60px;
+  left: 43.5%;
+  border-left: 15px solid transparent;
+  border-bottom: 20px solid white;
+  border-right: 15px solid transparent;
+}
+.toptop .lydwsj .lydwshow .no1 p {
+  padding-top: 150px;
+}
+.toptop .lydwsj .lydwshow .no1 p .ctff {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.toptop .lydwsj .lydwshow .no2 {
+  display: none;
+}
+.toptop .lydwsj .lydwshow .no2 p {
+  padding-top: 250px;
+}
+.toptop .lydwsj .lydwshow .no3 {
+  display: none;
+}
+.toptop .lydwsj .lydwshow .no3 p {
+  width: 180px;
+  padding-top: 120px;
+}
+.toptop .lydwsj .lydwshow .no4 {
+  display: none;
+}
+.toptop .lydwsj .lydwshow .no4 p {
+  padding-top: 150px;
+}
+.toptop .lydwsj .lydwshow .no5 {
+  display: none;
+}
+.toptop .lydwsj .lydwshow .no5 p {
+  padding-top: 200px;
+}
+.toptop .lydwsj .lydwshow .no6 {
+  display: none;
+}
+.toptop .lydwsj .lydwshow .no6 p {
+  padding-top: 150px;
+}
+.toptop .lydwsj .box {
+  width: 600px;
+  height: 400px;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.toptop .lydwsj .box img {
+  float: right;
+  height: 350px;
+  margin: 20px;
+}
+.toptop .lydwsj .box p {
+  float: left;
+  font-size: 16px;
+  color: black;
+}
+.toptop .lydwsj .box a {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+}
+.toptop .woman {
+  display: none;
+  width: 950px;
+  height: 400px;
+  position: fixed;
+  top: 80px;
+  z-index: 999;
+  left: 15%;
+  background-color: white;
+  box-shadow: 5px 5px 5px 2px #ccc;
+}
+.toptop .woman h1 {
+  color: white;
+  padding-left: 40px;
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+}
+.toptop .woman span {
+  display: block;
+  position: fixed;
+  top: 60px;
+  left: 50.5%;
+  border-left: 15px solid transparent;
+  border-bottom: 20px solid white;
+  border-right: 15px solid transparent;
+}
+.toptop .woman .slidenav {
+  width: 340px;
+  height: 400px;
+  background-color: #372D2A;
+  color: #827068;
+  font-size: 14px;
+}
+.toptop .woman .slidenav dd {
+  height: 25px;
+  width: 300px;
+  float: right;
+  padding-left: 5px;
+  line-height: 30px;
+}
+.toptop .woman .slidenav dd.show {
+  background-color: white;
+  color: black;
+}
+.toptop .woman .slidenav dd.show b {
+  color: black;
+}
+.toptop .woman .slidenav dd b {
+  float: right;
+  color: #372D2A;
+}
+.toptop .woman .box {
+  width: 600px;
+  height: 400px;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.toptop .woman .box img {
+  float: right;
+  height: 350px;
+  margin: 20px;
+}
+.toptop .woman .box p {
+  float: left;
+  line-height: 180%;
+  font-size: 16px;
+  color: black;
+}
+.toptop .woman .box a {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+}
+.toptop .woman .womanshow .no1 p {
+  padding-top: 80px;
+}
+.toptop .woman .womanshow .no2 {
+  display: none;
+}
+.toptop .woman .womanshow .no2 p {
+  padding-top: 90px;
+}
+.toptop .woman .womanshow .no3 {
+  display: none;
+}
+.toptop .woman .womanshow .no3 p {
+  width: 180px;
+  padding-top: 150px;
+}
+.toptop .woman .womanshow .no4 {
+  display: none;
+}
+.toptop .woman .womanshow .no4 p {
+  padding-top: 5px;
+}
+.toptop .woman .womanshow .no5 {
+  display: none;
+}
+.toptop .woman .womanshow .no5 p {
+  padding-top: 150px;
+}
+.toptop .woman .womanshow .no6 {
+  display: none;
+}
+.toptop .woman .womanshow .no6 p {
+  padding-top: 120px;
+}
+.toptop .woman .womanshow .no7 {
+  display: none;
+}
+.toptop .woman .womanshow .no7 p {
+  padding-top: 120px;
+}
+.toptop .woman .womanshow .no8 {
+  display: none;
+}
+.toptop .woman .womanshow .no8 p {
+  padding-top: 70px;
+}
+.toptop .woman .womanshow .no9 {
+  display: none;
+}
+.toptop .woman .womanshow .no9 p {
+  padding-top: 120px;
+}
+.toptop .woman .womanshow .no10 {
+  display: none;
+}
+.toptop .woman .womanshow .no10 p {
+  padding-top: 150px;
+}
+.toptop .woman .womanshow .no11 {
+  display: none;
+}
+.toptop .woman .womanshow .no11 p {
+  padding-top: 150px;
+}
+.toptop .woman .womanshow .no12 {
+  display: none;
+}
+.toptop .woman .womanshow .no12 p {
+  padding-top: 150px;
+}
+.toptop .woman .womanshow .no13 {
+  display: none;
+}
+.toptop .woman .womanshow .no13 p {
+  padding-top: 150px;
+}
+.toptop .man {
+  display: none;
+  width: 950px;
+  height: 400px;
+  position: fixed;
+  top: 80px;
+  left: 15%;
+  z-index: 999;
+  background-color: white;
+  box-shadow: 5px 5px 5px 2px #ccc;
+}
+.toptop .man h1 {
+  color: white;
+  padding-left: 40px;
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+}
+.toptop .man span {
+  display: block;
+  position: fixed;
+  top: 60px;
+  left: 55%;
+  border-left: 15px solid transparent;
+  border-bottom: 20px solid white;
+  border-right: 15px solid transparent;
+}
+.toptop .man .slidenav {
+  width: 340px;
+  height: 400px;
+  background-color: #372D2A;
+  color: #827068;
+  font-size: 14px;
+}
+.toptop .man .slidenav dd {
+  height: 25px;
+  width: 300px;
+  float: right;
+  padding-left: 5px;
+  line-height: 30px;
+}
+.toptop .man .slidenav dd.show {
+  background-color: white;
+  color: black;
+}
+.toptop .man .slidenav dd.show b {
+  color: black;
+}
+.toptop .man .slidenav dd b {
+  float: right;
+  color: #372D2A;
+}
+.toptop .man .box {
+  width: 600px;
+  height: 400px;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.toptop .man .box img {
+  float: right;
+  height: 350px;
+  margin: 20px;
+}
+.toptop .man .box p {
+  width: 180px;
+  float: left;
+  line-height: 190%;
+  font-size: 16px;
+  color: black;
+}
+.toptop .man .box a {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+}
+.toptop .man .manshow .no1 p {
+  padding-top: 120px;
+}
+.toptop .man .manshow .no2 {
+  display: none;
+}
+.toptop .man .manshow .no2 p {
+  padding-top: 120px;
+}
+.toptop .man .manshow .no3 {
+  display: none;
+}
+.toptop .man .manshow .no3 p {
+  width: 180px;
+  padding-top: 150px;
+}
+.toptop .man .manshow .no4 {
+  display: none;
+}
+.toptop .man .manshow .no4 p {
+  padding-top: 100px;
+}
+.toptop .man .manshow .no5 {
+  display: none;
+}
+.toptop .man .manshow .no5 p {
+  padding-top: 150px;
+}
+.toptop .man .manshow .no6 {
+  display: none;
+}
+.toptop .man .manshow .no6 p {
+  padding-top: 120px;
+}
+.toptop .man .manshow .no7 {
+  display: none;
+}
+.toptop .man .manshow .no7 p {
+  padding-top: 100px;
+}
+.toptop .man .manshow .no8 {
+  display: none;
+}
+.toptop .man .manshow .no8 p {
+  padding-top: 60px;
+}
+.toptop .man .manshow .no9 {
+  display: none;
+}
+.toptop .man .manshow .no9 p {
+  padding-top: 120px;
+}
+.toptop .man .manshow .no10 {
+  display: none;
+}
+.toptop .man .manshow .no10 p {
+  padding-top: 150px;
+}
+.toptop .man .manshow .no11 {
+  display: none;
+}
+.toptop .man .manshow .no11 p {
+  padding-top: 150px;
+}
+.toptop .man .manshow .no12 {
+  display: none;
+}
+.toptop .man .manshow .no12 p {
+  padding-top: 90px;
+}
+.toptop .search {
+  display: none;
+  width: 500px;
+  height: 30px;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  z-index: 999;
+  background-color: #E5E0DA;
+}
+.toptop .search input {
+  width: 420px;
+  background-color: #E5E0DA;
+  padding-left: 10px;
+}
+.toptop .search a {
+  width: 80px;
+  height: 30px;
+  float: right;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  background-color: #B9AFA8;
+  font-size: 16px;
+}
+.toptop .login {
+  display: none;
+  width: 590px;
+  height: 360px;
+  background-color: #EBEAE5;
+  position: fixed;
+  top: 80px;
+  right: 50px;
+  color: black;
+  z-index: 999;
+  box-shadow: 5px 5px 5px 2px #ccc;
+}
+.toptop .login h2 {
+  width: 80%;
+  height: 80px;
+  line-height: 60px;
+  margin-left: 20px;
+  font-weight: 500px;
+}
+.toptop .login .userlogin {
+  width: 50%;
+  height: 280px;
+  float: left;
+  position: relative;
+}
+.toptop .login .userlogin b {
+  width: 2px;
+  height: 60%;
+  border: 1px solid #C8C8C5;
+  position: absolute;
+  right: 20px;
+  top: 10%;
+}
+.toptop .login .userlogin h6 {
+  margin-left: 20px;
+  float: left;
+  font-weight: bold;
+}
+.toptop .login .userlogin p {
+  font-size: 12px;
+  color: black;
+  float: left;
+}
+.toptop .login .userlogin input {
+  width: 80%;
+  float: left;
+  height: 30px;
+  margin-left: 20px;
+}
+.toptop .login .userlogin u {
+  float: left;
+  margin-left: 20px;
+  margin-right: 200px;
+}
+.toptop .login .userlogin button {
+  float: left;
+  margin-left: 20px;
+  width: 80px;
+  height: 30px;
+  background-color: #533F34;
+  color: white;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.toptop .login .newuser {
+  width: 50%;
+  height: 280px;
+  float: right;
+  position: relative;
+}
+.toptop .login .newuser h6 {
+  margin-left: 10px;
+  float: left;
+  font-weight: bold;
+  margin-right: 190px;
+}
+.toptop .login .newuser p {
+  font-size: 12px;
+  color: #9E9E9D;
+  float: left;
+  width: 100%;
+}
+.toptop .login .newuser input {
+  width: 80%;
+  float: left;
+  height: 30px;
+  margin-left: 10px;
+}
+.toptop .login .newuser ul {
+  width: 90%;
+  color: #9E9E9D;
+  list-style-type: square;
+  margin-left: 10px;
+}
+.toptop .login .newuser button {
+  float: left;
+  margin-left: 10px;
+  width: 130px;
+  height: 30px;
+  background-color: #533F34;
+  color: white;
+  line-height: 30px;
+  margin-top: 75px;
+}
+.toptop .login span {
+  display: block;
+  position: fixed;
+  top: 60px;
+  right: 105px;
+  border-left: 20px solid transparent;
+  border-bottom: 15px solid #EBEAE5;
+  border-right: 20px solid transparent;
+}
+.toptop .login a {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  cursor: pointer;
+}
+.bigad {
+  width: 1300px;
+  margin: 0 auto;
+  height: 950px;
+}
+.bigad .no1 {
+  height: 570px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  background-image: url(../images/路易威登-路易威登香水--924_Lv_now_Pop_Up_Shanghai_F_DI1.jpg);
+  background-size: 100% 100%;
+}
+.bigad .no1 .xianshui {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  line-height: 180%;
+  bottom: 10px;
+  font-size: 16px;
+}
+.bigad .no1 .xianshui h1 {
+  margin-bottom: 5px;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+.bigad .no1 .xianshui p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.bigad .no1 .xianshui a {
+  display: block;
+  width: 160px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  background-color: #533F34;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+.bigad .no1 .xianshui a span {
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+.bigad .no1 .xianshui a span.show {
+  left: 20px;
+}
+.bigad .shoping_inline {
+  height: 800px;
+  margin: 0 auto;
+  float: left;
+  margin-top: 30px;
+}
+.bigad .shoping_inline img {
+  float: left;
+}
+.bigad .shoping_inline img.img_2 {
+  float: right;
+  width: 610px;
+  height: 360px;
+  margin-top: 30px;
+}
+.bigad .shoping_inline .shopandphone {
+  color: #443229;
+  float: right;
+  width: 610px;
+  height: 340px;
+  border: 1px solid #ccc;
+}
+.bigad .shoping_inline .shopandphone h1 {
+  margin-top: 100px;
+  color: #443229;
+  text-align: center;
+  font-size: 28px;
+}
+.bigad .shoping_inline .shopandphone p {
+  width: 600px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.bigad .shoping_inline .shopandphone a {
+  display: block;
+  width: 180px;
+  font-size: 16px;
+  height: 30px;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 210px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 10px;
+  color: white;
+  background-color: #443229;
+}
+.bigad .shoping_inline .shopandphone a span {
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+.bigad .nav_two {
+  width: 1300px;
+  height: 50px;
+  margin: 0 auto;
+  float: left;
+  font-size: 25px;
+}
+.bigad .nav_two a {
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+  margin-left: 150px;
+  color: black;
+}
+.bigad .nav_two .mylv_world {
+  float: right;
+  margin-right: 150px;
+}
+.bigad .ad_three {
+  width: 1200px;
+  height: 310px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.bigad .ad_three .adz {
+  width: 30%;
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+  border-bottom: 1px solid #E2E2E2;
+}
+.bigad .ad_three .adz a {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+}
+.footer {
+  margin-top: 800px;
+}

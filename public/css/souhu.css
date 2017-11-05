@@ -1,0 +1,396 @@
+.oh {
+  overflow: hidden;
+}
+.box-min {
+  margin: 0 auto;
+}
+.tc {
+  text-align: center;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.cityandphone {
+  width: 1349px;
+  height: 100px;
+  overflow: hidden;
+  background-color: #C8A985;
+  color: white;
+}
+.cityandphone .phone {
+  width: 250px;
+  height: 100px;
+  line-height: 150%;
+  border-right: 1px solid white;
+  float: left;
+  letter-spacing: 2px;
+  padding: 15px;
+  font-size: 16px;
+}
+.cityandphone .city {
+  font-size: 16px;
+  width: 1050px;
+  height: 80px;
+  float: left;
+  line-height: 140%;
+  padding: 20px;
+}
+.fwwthhcp {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1349px;
+  margin-top: 20px;
+}
+.fwwthhcp .four_box {
+  width: 400px;
+  height: 50px;
+  float: left;
+  margin-left: 30px;
+}
+.fwwthhcp .four_box dd {
+  border: 1px solid #EBE8E3;
+  font-size: 15px;
+  float: left;
+  color: black;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.fwwthhcp .four_box dd.l {
+  border-left: none;
+}
+.fwwthhcp .four_box dd.show {
+  background-color: #EBE8E3;
+  color: #C8A985;
+}
+.fwwthhcp .mainbody {
+  width: 1349px;
+  margin: 0 auto;
+  float: left;
+  overflow: hidden;
+  background: -webkit-linear-gradient(left, #EBE8E3, #F0F0F0);
+  background: -moz-linear-gradient(right, #EBE8E3, #F0F0F0);
+  background: -o-linear-gradient(right, #EBE8E3, #F0F0F0);
+  background: linear-gradient(right, #EBE8E3, #F0F0F0);
+}
+.fwwthhcp .mainbody .box {
+  width: 1200px;
+}
+.fwwthhcp .mainbody .khfw {
+  margin-bottom: 20px;
+}
+.fwwthhcp .mainbody .khfw h1 {
+  height: 50px;
+  margin: 50px 0 20px 50px;
+  color: black;
+  border-bottom: 1px solid #ccc;
+}
+.fwwthhcp .mainbody .khfw img {
+  margin-left: 220px;
+}
+.fwwthhcp .mainbody .khfw .white_card {
+  width: 800px;
+  height: 150px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 280px;
+  font-size: 16px;
+  color: black;
+  line-height: 180%;
+  padding: 50px;
+  text-align: center;
+}
+.fwwthhcp .mainbody .khfw .white_card span {
+  font-size: 13px;
+}
+.fwwthhcp .mainbody .cjwt {
+  display: none;
+  width: 1250px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left {
+  background-color: #EBE8E3;
+  width: 900px;
+  float: left;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left h1 {
+  height: 60px;
+  line-height: 60px;
+  font-size: 26px;
+  margin-top: 20px;
+  color: black;
+  border-bottom: 1px solid #ccc;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .cjwt_box {
+  width: 900px;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .cjwt_box h2 {
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  color: black;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .cjwt_box span {
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: 25px;
+  background: url(../images/sanjiaox.png) no-repeat;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .cjwt_box span.show {
+  background: url(../images/xiazai.png) no-repeat;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .cjwt_box .title {
+  display: none;
+  font-size: 18px;
+  height: 60px;
+  line-height: 60px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .cjwt_box .title span {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-top: 25px;
+  background: url(../images/jiaohaok.png) no-repeat;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .cjwt_box .title span.show {
+  background: url(../images/xiaoxia.png) no-repeat;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .cjwt_box .conect {
+  display: none;
+  width: 850px;
+  height: 140px;
+  margin-right: 50px;
+  background-color: #E0DCD3;
+  float: left;
+  color: #71635E;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 150%;
+  padding: 40px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .our {
+  width: 900px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .our .title {
+  width: 900px;
+  font-size: 18px;
+  overflow: hidden;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .our .conect {
+  height: 180px;
+  float: left;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .our .conect.da {
+  height: 260px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .our .conect.dada {
+  height: 300px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .our .conect.min {
+  height: 140px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .our .conect.minmin {
+  height: 100px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .lv {
+  width: 900px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .lv .title {
+  width: 900px;
+  font-size: 18px;
+  overflow: hidden;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .lv .conect {
+  height: 250px;
+  float: left;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .lv .conect.min {
+  height: 150px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .lv .conect.da {
+  height: 470px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .lv .conect.minmin {
+  height: 100px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .lv .conect.min3 {
+  height: 140px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .question {
+  width: 900px;
+  margin-bottom: 20px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .question .title {
+  width: 900px;
+  font-size: 18px;
+  overflow: hidden;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .question .conect {
+  height: 150px;
+  float: left;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .question .conect.min {
+  height: 150px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .question .conect.da {
+  height: 310px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .question .conect.minmin {
+  height: 100px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_left .question .conect.da-min {
+  height: 230px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_right {
+  width: 350px;
+  background-color: #F0F0F0;
+  float: right;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_right .cellphone {
+  margin: 30px 0 0 50px;
+  font-size: 14px;
+  color: #CFA992;
+  letter-spacing: 2px;
+  line-height: 180%;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_right .cellphone p {
+  font-size: 16px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_right .lanmu {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_right .lanmu dd {
+  font-size: 16px;
+  color: black;
+  letter-spacing: 2px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  border-bottom: 1px solid #BABABA;
+  width: 250px;
+}
+.fwwthhcp .mainbody .cjwt .cjwt_right .lanmu dd.dd_last {
+  border: none;
+}
+.fwwthhcp .mainbody .thhfw {
+  width: 1349px;
+  display: none;
+}
+.fwwthhcp .mainbody .thhfw h1 {
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  line-height: 60px;
+  margin: 30px;
+  margin-left: 50px;
+  color: black;
+}
+.fwwthhcp .mainbody .thhfw p {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #E0DCD3;
+  color: #71635E;
+  padding: 30px;
+  font-size: 15px;
+  line-height: 200%;
+}
+.fwwthhcp .mainbody .cpby {
+  display: none;
+  width: 1349px;
+  margin-bottom: 20px;
+}
+.fwwthhcp .mainbody .cpby h1 {
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  line-height: 60px;
+  margin: 30px;
+  margin-left: 50px;
+  color: black;
+}
+.fwwthhcp .mainbody .cpby dl {
+  width: 1200px;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.fwwthhcp .mainbody .cpby dl dd {
+  font-size: 24px;
+  margin-right: 20px;
+  float: left;
+  height: 30px;
+  color: black;
+}
+.fwwthhcp .mainbody .cpby dl dd.show {
+  border-bottom: 3px solid black;
+}
+.fwwthhcp .mainbody .cpby p {
+  width: 1200px;
+  margin-left: 50px;
+  background-color: #E0DCD3;
+  color: #71635E;
+  padding: 30px;
+  font-size: 15px;
+  line-height: 200%;
+}
+.fwwthhcp .mainbody .cpby p.no2 {
+  display: none;
+}
+.fwwthhcp .mainbody .email {
+  display: none;
+  width: 1349px;
+  margin-bottom: 20px;
+}
+.fwwthhcp .mainbody .email h2 {
+  height: 60px;
+  line-height: 60px;
+  margin: 30px;
+  margin-left: 20px;
+  color: black;
+}
+.fwwthhcp .mainbody .email h1 {
+  width: 1200px;
+  margin: 0 auto;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  line-height: 60px;
+  color: #5E5E60;
+}
+.fwwthhcp .mainbody .email h1 span {
+  color: #C8A99C;
+  float: right;
+}
+.fwwthhcp .mainbody .email p {
+  width: 1200px;
+  font-size: 12px;
+  margin: 15px 0 0 80px ;
+  line-height: 150%;
+  letter-spacing: 2px;
+}
+.fwwthhcp .mainbody .email button {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  background-color: #C8A985;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  margin: 50px 0 0 80px;
+}
